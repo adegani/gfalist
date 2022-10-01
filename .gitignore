@@ -1,0 +1,8 @@
+
+*.o
+
+*.a
+
+version.h
+
+gfalist

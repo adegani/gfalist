@@ -119,7 +119,6 @@ static void process(char *name, FILE *ost, char *file, unsigned int flags)
 	switch (gh.vers) {
 	case 1:
 	case 2:
-	case 3:
 		output("Version %d files not supported yet.\n", gh.vers);
 		if (ist != stdin)
 			fclose(ist);
